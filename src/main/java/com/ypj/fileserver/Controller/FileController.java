@@ -9,8 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletResponse;
 
 @RestController
-@Scope("prototype")
-@RequestMapping("/log")
+@RequestMapping("/file")
 public class FileController {
 
     @Autowired
@@ -24,8 +23,8 @@ public class FileController {
      * @throws Exception
      */
     @GetMapping(value = "/download/{name}")
-    public void fileDownload(@PathVariable String name, HttpServletResponse response) throws Exception {
-        fileService.fileDownload(name, response);
+    public String fileDownload(@PathVariable String name, HttpServletResponse response) throws Exception {
+        return fileService.fileDownload(name, response);
     }
 
 

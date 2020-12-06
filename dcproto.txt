@@ -1,0 +1,2147 @@
+
+°ó
+dcproto_all.protodc"F
+ServerNodeId
+id (Rid
+type (Rtype
+zone (Rzone"6
+KeyValueType
+key (Rkey
+value (Rvalue"8
+KeyValue64Type
+key (Rkey
+value (Rvalue"é
+RoleBriefInfo
+uid (Ruid
+name (	Rname
+level (Rlevel
+exp (Rexp
+online (Ronline
+open_id	 (	RopenId" 
+RolePullInfo
+uid (Ruid"9
+RoleList-
+	role_list (2.dc.RolePullInfoRroleList"⁄
+AccountRole
+open_id (	RopenId
+platform (	Rplatform
+uid (Ruid
+name (	Rname
+level (Rlevel!
+platform_pic (	RplatformPic
+ban_time (RbanTime
+
+ban_reason (	R	banReason 
+ban_now_time	 (R
+banNowTime#
+register_time
+ (RregisterTime
+zone_id (RzoneId
+
+phone_form (R	phoneForm"î
+RoleDeviceInfo
+open_id (	RopenId
+platform (	Rplatform
+
+time_stamp (R	timeStamp
+device (	Rdevice
+zoneid (Rzoneid"U
+ChestOrderData
+id (Rid
+
+sequece_id (R	sequeceId
+times (Rtimes"ˆ
+RoleBase
+level (Rlevel
+account (	Raccount
+name (	Rname
+coin (Rcoin
+diamond (Rdiamond
+version (Rversion
+is_new (RisNew
+	vip_level (RvipLevel
+exp	 (Rexp
+heroExp
+ (RheroExp 
+playerPower (RplayerPower
+energy (Renergy
+tech (Rtech!
+daily_active (RdailyActive#
+weekly_active (RweeklyActive-
+day_first_online_ts (RdayFirstOnlineTs
+portrait (Rportrait(
+create_role_time (RcreateRoleTime(
+latest_online_ts (RlatestOnlineTs*
+latest_offline_ts (RlatestOfflineTs/
+is_report_active_tag (RisReportActiveTag%
+client_setting (RclientSetting
+	ban_state (RbanState(
+ban_expired_time (RbanExpiredTime"r
+
+CHeroIntro
+uid (Ruid
+id (Rid
+level (Rlevel
+star (Rstar
+quality (Rquality"±
+Intro
+uuid (Ruuid
+name (	Rname
+level (Rlevel
+portrait (Rportrait!
+player_power (RplayerPower
+adv_chapter (R
+advChapter
+	adv_stage (RadvStage
+
+room_level (R	roomLevel
+hero_num	 (RheroNum!
+heroes
+ (2	.dc.CHeroRheroes
+exp (Rexp"∂
+Role
+id (Rid(
+roleBase (2.dc.RoleBaseRroleBase(
+heroList (2.dc.HeroListRheroList
+bag (2.dc.BagRbag(
+roomList (2.dc.RoomListRroomList-
+mission (2.dc.RoleMissionDataRmission!
+team (2.dc.RoleTeamsRteam3
+	adventure (2.dc.RoleAdventureDataR	adventure")
+BitFlag
+
+bitFlagArr (R
+bitFlagArr"_
+	HeroSkill
+skill_id (RskillId
+skill_level (R
+skillLevel
+unlock (Runlock"ù
+Hero
+uid (Ruid
+id (Rid
+level (Rlevel
+star (Rstar
+
+hero_power (R	heroPower
+quality (Rquality.
+hero_skills (2.dc.HeroSkillR
+heroSkills
+	is_priest (RisPriest
+slot_number	 (R
+slotNumber"
+emblem
+ (2
+.dc.EmblemRemblem"ü
+CHero
+uid (Ruid
+id (Rid
+level (Rlevel
+star (Rstar
+
+hero_power (R	heroPower
+quality (Rquality.
+hero_skills (2.dc.HeroSkillR
+heroSkills
+	is_priest (RisPriest
+slot_number	 (R
+slotNumber#
+emblem
+ (2.dc.CEmblemRemblem"F
+AttrInstance
+attr_id (RattrId
+
+attr_value (R	attrValue"“
+HeroList%
+	hero_list (2.dc.HeroRheroList!
+team (2.dc.RoleTeamsRteam
+version (Rversion
+hp_rate_add (R	hpRateAdd 
+atk_rate_add (R
+atkRateAdd 
+def_rate_add (R
+defRateAdd"9
+NameUserData
+uid (Ruid
+open_id (	RopenId"È
+	ActorData
+instance_id (R
+instanceId
+camp (Rcamp
+	config_id (RconfigId
+level (Rlevel
+hp (Rhp
+energy (Renergy
+
+max_energy (R	maxEnergy
+init_pos (RinitPos
+type	 (Rtype"^
+CampData
+uid (Ruid
+name (	Rname,
+
+actor_list (2.dc.ActorDataR	actorList"ã
+SkillEffectDmg
+	target_id (RtargetId
+atk_type (RatkType
+dmg (Rdmg
+hp (Rhp
+is_restrain (R
+isRestrain"J
+SkillEffectBeHitState
+	target_id (RtargetId
+state (Rstate"µ
+SkillEffectAddBuff
+	target_id (RtargetId
+buff_obj_id (R	buffObjId
+buff_cfg_id (R	buffCfgId
+
+buff_layer (R	buffLayer#
+control_state (RcontrolState"ô
+SkillEffectRemoveBuff
+	target_id (RtargetId
+buff_obj_id (R	buffObjId
+buff_cfg_id (R	buffCfgId#
+control_state (RcontrolState"ì
+SkillEffectBuffDmg
+	target_id (RtargetId
+buff_obj_id (R	buffObjId
+buff_cfg_id (R	buffCfgId
+dmg (Rdmg
+hp (Rhp".
+SkillEffectMiss
+	target_id (RtargetId"N
+SkillEffectEnergyChange
+	target_id (RtargetId
+energy (Renergy"/
+SkillEffectDeath
+	target_id (RtargetId"U
+SkillEffectHeal
+	target_id (RtargetId
+add_hp (RaddHp
+hp (Rhp"ô
+SkillEffectBuffHeal
+	target_id (RtargetId
+add_hp (RaddHp
+hp (Rhp
+buff_obj_id (R	buffObjId
+buff_cfg_id (R	buffCfgId"±
+SkillEffectData*
+skill_effect_type (RskillEffectType/
+	skill_dmg (2.dc.SkillEffectDmgRskillDmg6
+	hit_state (2.dc.SkillEffectBeHitStateRhitState1
+add_buff (2.dc.SkillEffectAddBuffRaddBuff:
+remove_buff (2.dc.SkillEffectRemoveBuffR
+removeBuff1
+buff_dmg (2.dc.SkillEffectBuffDmgRbuffDmg'
+miss (2.dc.SkillEffectMissRmiss3
+energy (2.dc.SkillEffectEnergyChangeRenergy*
+death	 (2.dc.SkillEffectDeathRdeath'
+heal
+ (2.dc.SkillEffectHealRheal4
+	buff_heal (2.dc.SkillEffectBuffHealRbuffHeal"M
+BattleDataEnergyChange
+	target_id (RtargetId
+energy (Renergy"w
+
+BattleData(
+battle_data_type (RbattleDataType?
+energy_change (2.dc.BattleDataEnergyChangeRenergyChange"‹
+BattleRecordData
+record_type (R
+recordType
+round (Rround
+caster (Rcaster
+skill_id (RskillId:
+target1_effect (2.dc.SkillEffectDataRtarget1Effect:
+target2_effect (2.dc.SkillEffectDataRtarget2Effect7
+pursuit_list (2.dc.BattleRecordDataRpursuitList-
+
+other_data (2.dc.BattleDataR	otherData"∏
+BattleReportDetail"
+camp1 (2.dc.CampDataRcamp1"
+camp2 (2.dc.CampDataRcamp2
+winner (RwinnerB
+battle_recrod_list (2.dc.BattleRecordDataRbattleRecrodList"¥
+BattleReport2
+battle_report_version (RbattleReportVersion
+
+level_type (R	levelTypeQ
+battle_report_detail_list (2.dc.BattleReportDetailRbattleReportDetailList",
+Item
+id (Rid
+count (Rcount"F
+Bag%
+	item_list (2.dc.ItemRitemList
+version (Rversion";
+Reward
+	reward_id (RrewardId
+times (Rtimes"8
+	RewardBag+
+reward_list (2
+.dc.RewardR
+rewardList"2
+	ClientBag%
+	item_list (2.dc.ItemRitemList".
+Items%
+	item_list (2.dc.ItemRitemList"D
+AdventureChapter
+chapter (Rchapter
+stages (Rstages"†
+AdventureInfo
+version (Rversion'
+current_chapter (RcurrentChapter#
+current_stage (RcurrentStage(
+fix_awarded_time (RfixAwardedTime*
+rand_awarded_time (RrandAwardedTime4
+
+unrewarded (2.dc.AdventureChapterR
+unrewarded
+	fight_num (RfightNum"~
+ShopItem
+itemId (RitemId"
+currentPrice (RcurrentPrice
+buyTimes (RbuyTimes
+discount (Rdiscount"”
+ShopCtx
+shopType (RshopType"
+refreshPrice (RrefreshPrice 
+item (2.dc.ShopItemRitem
+cfgId (RcfgId&
+refreshedTimes (RrefreshedTimes(
+nextRefreshTime (RnextRefreshTime"E
+ShopInfo
+version (Rversion
+shop (2.dc.ShopCtxRshop"£
+	StoryInfo
+version (Rversion'
+current_chapter (RcurrentChapter,
+chapter_start_time (RchapterStartTime%
+passed_chapter (RpassedChapter"-
+
+ElseWdTeam
+heros (2	.dc.CHeroRheros"I
+ElseWdHeroState
+status (Rstatus
+hp (Rhp
+mp (Rmp"i
+ElseWdTeamSelf"
+team (2.dc.ElseWdTeamRteam3
+
+heroStates (2.dc.ElseWdHeroStateR
+heroStates"|
+ElseWdTeamEnemy"
+team (2.dc.ElseWdTeamRteam
+pos (Rpos3
+
+heroStates (2.dc.ElseWdHeroStateR
+heroStates" 
+
+ElseWdDoor
+progress (Rprogress
+eventId (ReventId
+	eventType (R	eventType
+eventTid (ReventTid
+options (Roptions2
+
+enemy_team (2.dc.ElseWdTeamEnemyR	enemyTeam"u
+ElseWdStage$
+doors (2.dc.ElseWdDoorRdoors!
+current_door (RcurrentDoor
+
+quota_door (R	quotaDoor"¶
+
+ElseWdInfo
+version (Rversion(
+latest_open_time (RlatestOpenTime!
+passed_stage (RpassedStage%
+rewarded_stage (RrewardedStage
+env_evil_id (R	envEvilId 
+eventCsvIds (ReventCsvIds3
+pending_teams (2.dc.ElseWdTeamRpendingTeams/
+	self_team	 (2.dc.ElseWdTeamSelfRselfTeam4
+current_stage
+ (2.dc.ElseWdStageRcurrentStage,
+latest_combat_time (RlatestCombatTime"6
+
+MailSender
+index (	Rindex
+name (	Rname"5
+MailRecipient
+uid (Ruid
+name (	Rname"W
+MailRecipients
+type (Rtype1
+
+recipients (2.dc.MailRecipientR
+recipients"0
+MailItem
+id (Rid
+count (Rcount">
+MailAttachments+
+
+mail_items (2.dc.MailItemR	mailItems"«
+MailTemplate
+id (Rid
+	send_time (RsendTime!
+expired_time (RexpiredTime
+version (Rversion
+source (Rsource&
+sender (2.dc.MailSenderRsender2
+
+recipients (2.dc.MailRecipientsR
+recipients
+subject (	Rsubject
+text	 (	Rtext+
+attach
+ (2.dc.MailAttachmentsRattach"S
+MailInstance
+id (Rid
+	pick_time (RpickTime
+status (Rstatus"è
+Mailbox
+version (Rversion$
+latest_op_time (RlatestOpTime
+flags (Rflags.
+	mailInsts (2.dc.MailInstanceR	mailInsts"Å
+WorldMailOffice
+version (Rversion,
+latest_update_time (RlatestUpdateTime&
+mails (2.dc.MailTemplateRmails"O
+WorldIntroCenter
+version (Rversion!
+intros (2	.dc.IntroRintros"Ñ
+CRoomAccumulationData
+	full_time (RfullTime(
+can_collect_time (RcanCollectTime$
+own_extr_power (RownExtrPower"†
+	CRoomData
+room_uid (RroomUid
+room_cfg_id (R	roomCfgId
+level (Rlevel
+x (Rx
+y (Ry
+finish_time (R
+finishTime
+status (RstatusF
+accumulation_data (2.dc.CRoomAccumulationDataRaccumulationData%
+stationd_heros	 (RstationdHeros"∆
+RoomAccumulationData-
+last_settle_rs_time (RlastSettleRsTime
+	full_time (RfullTime
+save_rs (RsaveRs*
+remain_special_rs (RremainSpecialRs&
+is_collect_full (RisCollectFull(
+can_collect_time (RcanCollectTime$
+own_extr_power (RownExtrPower%
+	item_list (2.dc.PairRitemList";
+Pair
+
+room_level (R	roomLevel
+count (Rcount"û
+RoomData
+room_uid (RroomUid
+room_cfg_id (R	roomCfgId
+level (Rlevel
+x (Rx
+y (Ry
+finish_time (R
+finishTime
+status (RstatusE
+accumulation_data (2.dc.RoomAccumulationDataRaccumulationData%
+stationd_heros	 (RstationdHeros"Û
+HallCore
+room_uid (RroomUid
+room_cfg_id (R	roomCfgId
+
+hall_level (R	hallLevel
+finish_time (R
+finishTime
+status (Rstatus
+workers_num (R
+workersNum8
+unlock_build_room (2.dc.RoomPairRunlockBuildRoom:
+already_build_room (2.dc.RoomPairRalreadyBuildRoom=
+region_occupy_record	 (2.dc.HallRowRregionOccupyRecord"1
+HallRow&
+is_occupy_array (RisOccupyArray"E
+RoomPair
+room_cfg_id (R	roomCfgId
+room_num (RroomNum"D
+RoomPosData
+room_uid (RroomUid
+x (Rx
+y (Ry"Ú
+RoomList)
+	room_list (2.dc.RoomDataRroomList)
+	hall_core (2.dc.HallCoreRhallCore/
+worker_tasks (2.dc.WorkTaskRworkerTasks;
+hero_station_list (2.dc.HeroStationRheroStationList'
+adventure_rooms (RadventureRooms)
+last_hang_up_time (RlastHangUpTime"
+hang_up_times (RhangUpTimes*
+last_collect_time (RlastCollectTime"C
+HeroStation
+hero_uid (RheroUid
+room_uid (RroomUid"I
+	RoomPower
+room_uid (RroomUid!
+assgin_power (RassginPower"F
+WorkTask
+room_uid (RroomUid
+finish_time (R
+finishTime"r
+IdleMissionData
+heroes (Rheroes*
+last_collect_time (RlastCollectTime
+	full_time (RfullTime"4
+BattleMissionData
+stage_index (R
+stageIndex"™
+MissionData
+
+mission_id (R	missionId
+type (Rtype0
+	idle_data (2.dc.IdleMissionDataRidleData6
+battle_data (2.dc.BattleMissionDataR
+battleData"L
+CityInfo
+city_id (RcityId'
+unblocked_block (RunblockedBlock"=
+
+TeamConfig
+team_id (RteamId
+heroes (Rheroes"V
+	RoleTeams$
+teams (2.dc.TeamConfigRteams#
+function_team (RfunctionTeam"Â
+RoleMissionData+
+unblocked_mission (RunblockedMission6
+finished_battle_mission (RfinishedBattleMission8
+running_mission (2.dc.MissionDataRrunningMission3
+unblocked_city (2.dc.CityInfoRunblockedCity":
+RoleAdventureData%
+info (2.dc.AdventureInfoRinfo"0
+RoleShopData 
+info (2.dc.ShopInfoRinfo"2
+RoleStoryData!
+info (2.dc.StoryInfoRinfo"4
+RoleElseWdData"
+info (2.dc.ElseWdInfoRinfo"2
+RoleMailboxData
+info (2.dc.MailboxRinfo">
+WorldMailOfficeData'
+info (2.dc.WorldMailOfficeRinfo"L
+BlockMissionInfo
+block_id (RblockId
+
+mission_id (R	missionId"T
+CityMissionInfo
+city_id (RcityId(
+info (2.dc.BlockMissionInfoRinfo"‘
+SyncCityBlockMissionData
+block_id (RblockId+
+unblocked_mission (RunblockedMission6
+finished_battle_mission (RfinishedBattleMission8
+running_mission (2.dc.MissionDataRrunningMission"k
+SyncCityMissionData
+city_id (RcityId;
+
+block_data (2.dc.SyncCityBlockMissionDataR	blockData"F
+SyncMissinData4
+	city_data (2.dc.SyncCityMissionDataRcityData"0
+ArchiveSeries
+unlock_list (R
+unlockList":
+RoleDataChange
+type (Rtype
+value (Rvalue"?
+RoleDataChangeInt64
+type (Rtype
+value (Rvalue"Ì
+
+ServerInfo
+	server_id (RserverId
+server_name (R
+serverName
+server_type (R
+serverType
+	server_ip (	RserverIp
+server_port (R
+serverPort
+isUDP (RisUDP%
+suggest_status (RsuggestStatus
+view_status (R
+viewStatus
+
+new_status	 (R	newStatus
+zone_status
+ (R
+zoneStatus$
+open_zone_time (RopenZoneTime"Ÿ
+DrawCardDropSection
+	begin_pos (RbeginPos
+end_pos (RendPos
+drop_cnt (RdropCnt
+drop_tag (RdropTag
+priority (Rpriority(
+next_drop_adjust (RnextDropAdjust
+pos (Rpos"R
+DrawCardMustHeroInfo
+hero_id (RheroId!
+finish_count (RfinishCount"»
+DrawCardInfo(
+special_cnt_list (RspecialCntList
+special_cnt (R
+specialCnt
+draw_cnt (RdrawCnt$
+draw_total_cnt (RdrawTotalCnt
+turn_cnt (RturnCnt 
+turn_cfg_cnt (R
+turnCfgCnt,
+first_stride_valid (RfirstStrideValid
+cfg_id (RcfgId1
+section	 (2.dc.DrawCardDropSectionRsection5
+	must_hero
+ (2.dc.DrawCardMustHeroInfoRmustHero!
+first_stride (RfirstStride
+
+fix_stride (R	fixStride"4
+DrawCardData$
+list (2.dc.DrawCardInfoRlist"Y
+Task
+cfg_id (RcfgId
+
+task_state (R	taskState
+	cur_count (RcurCount"æ
+TaskList%
+	task_list (2.dc.TaskRtaskList(
+daily_valid_time (RdailyValidTime*
+weekly_valid_time (RweeklyValidTime5
+check_Task_list (2.dc.CheckTaskRcheckTaskList"F
+	CheckTask
+	condition (R	condition
+	task_list (RtaskList"X
+	Equipment
+id (Rid
+cfg_id (RcfgId$
+attr (2.dc.AttrInstanceRattr"ê
+EquipmentSlot
+part (Rpart)
+enchanting_count (RenchantingCount%
+strength_level (RstrengthLevel
+equip_id (RequipId"ú
+EquipmentData4
+equipment_list (2.dc.EquipmentRequipmentList'
+slots (2.dc.EquipmentSlotRslots,
+strength_master_lv (RstrengthMasterLv"/
+	EquipInfo
+slot (Rslot
+id (Rid">
+HeroSlot
+hero_uid (RheroUid
+slot_cd (RslotCd"c
+HeroSlotInfo
+slot_number (R
+slotNumber
+hero_uid (RheroUid
+slot_cd (RslotCd"ÿ
+CrystalData
+is_altar (RisAltar
+share_level (R
+shareLevel/
+share_level_up_limit (RshareLevelUpLimit2
+hero_slot_list (2.dc.HeroSlotRheroSlotList(
+priest_hero_list (RpriestHeroList"ƒ
+BlessingSlot+
+cur_attr (2.dc.AttrInstanceRcurAttr-
+	draw_attr (2.dc.AttrInstanceRdrawAttr
+
+draw_count (R	drawCount
+bless_id (RblessId
+cost_cfg_id (R	costCfgId"n
+Emblem
+cfg_id (RcfgId
+level (Rlevel7
+blessing_slots (2.dc.BlessingSlotRblessingSlots"Y
+CEmblem
+level (Rlevel8
+blessing_slots (2.dc.CBlessingSlotRblessingSlots"ä
+CBlessingSlot
+
+slot_index (R	slotIndex+
+cur_attr (2.dc.AttrInstanceRcurAttr-
+	draw_attr (2.dc.AttrInstanceRdrawAttr"o
+Tower
+type (Rtype
+	cur_level (RcurLevel
+rewards (Rrewards
+	fight_num (RfightNum"*
+	TowerList
+list (2	.dc.TowerRlist"Ù
+MarqueeInfo
+
+marquee_id (	R	marqueeId
+content (	Rcontent
+
+begin_time (R	beginTime
+end_time (RendTime
+interval (Rinterval
+status (Rstatus
+platform (Rplatform
+env (Renv
+channel	 (Rchannel
+priority
+ (Rpriority
+
+target_url (	R	targetUrl
+sub_content (	R
+subContent
+location (Rlocation"7
+
+PunishInfo
+id (Rid
+end_time (RendTime"0
+
+PunishList"
+list (2.dc.PunishInfoRlist"w
+AlbumAndCharacterProfile"
+album_id_list (RalbumIdList7
+profile_list (2.dc.CharacterProfileRprofileList"k
+CharacterProfile
+
+role_cfgid (R	roleCfgid!
+picture_list (RpictureList
+is_get (RisGet"“
+MainUi%
+special_dramas (RspecialDramas#
+closed_dramas (RclosedDramas%
+actived_dramas (RactivedDramas)
+unactived_dramas (RunactivedDramas*
+random_drama_time (RrandomDramaTime 
+cur_drama_id (R
+curDramaId0
+common_trigger_times (RcommonTriggerTimes*
+last_collect_time (RlastCollectTime"π
+CMainUi 
+cur_drama_id (R
+curDramaId
+is_get (RisGet
+
+is_special (R	isSpecial*
+random_drama_time (RrandomDramaTime*
+last_collect_time (RlastCollectTime"`
+DrawCardShowInfo
+type (Rtype
+id (Rid
+count (Rcount
+pram (Rpram"<
+DrawCardShowList(
+list (2.dc.DrawCardShowInfoRlist"U
+GMDrawCardInfo
+id (Rid
+quality (Rquality
+out_type (RoutType"B
+GMDrawCardQulityInfo
+quality (Rquality
+cnt (Rcnt"≥
+
+FriendInfo
+name (	Rname
+	server_id (RserverId
+level (Rlevel
+head_id (RheadId
+power (Rpower(
+last_online_time (RlastOnlineTime
+role_id (RroleId
+remark (	Rremark+
+adventure_chapter	 (RadventureChapter'
+adventure_stage
+ (RadventureStage"Ÿ
+FriendBriefInfo
+name (	Rname
+role_id (RroleId
+power (Rpower
+level (Rlevel
+head_id (RheadId+
+adventure_chapter (RadventureChapter'
+adventure_stage (RadventureStage"I
+FriendRequestInfo"
+info (2.dc.FriendInfoRinfo
+msg (	Rmsg"Ô
+CSClientLoginReq%
+platform_token (	RplatformToken
+platform (Rplatform
+open_id (	RopenId
+guest_id (	RguestId
+	client_ip (	RclientIp
+device (	Rdevice
+force_state (R
+forceState
+os (	Ros"ô
+SCClientLoginAck
+error (Rerror
+	xor_index (RxorIndex
+
+time_stamp (R	timeStamp
+zoneid (Rzoneid
+	time_zone (RtimeZone"
+CSClientLogoutReq"
+SCClientLogoutAck"∆
+CSCreateRoleReq
+	role_name (	RroleName
+platform (Rplatform
+open_id (	RopenId"
+loginChannel (RloginChannel
+
+regChannel (R
+regChannel
+
+phone_form (R	phoneForm";
+SCCreateRoleAck
+error (Rerror
+uuid (Ruuid"2
+CSChangeRoleNameReq
+	role_name (	RroleName"H
+SCChangeRoleNameAck
+error (Rerror
+	role_name (	RroleName"k
+SCUserStartupInfoNtf)
+	role_base (2.dc.RoleBaseRroleBase(
+role_bag (2.dc.ClientBagRroleBag"
+SCUserStartupFinishedNtf"4
+SCLogicPingNtf
+ts (Rts
+ping (Rping" 
+CSLogicPingAck
+ts (Rts"!
+	SCKickNtf
+error (Rerror"+
+SCServerMaintainNtf
+error (Rerror".
+CSZonePlayerInfoReq
+open_id (	RopenId"-
+SSCommonIntAck
+	int_value (RintValue"s
+ZonePlayerInfo
+zone_id (RzoneId#
+charactor_num (RcharactorNum#
+server_status (RserverStatus"=
+SCZonePlayerInfoNtf&
+info (2.dc.ZonePlayerInfoRinfo"
+CSServersReq"e
+SCServersAck"
+info (2.dc.ServerInfoRinfo
+cdn_url (	RcdnUrl
+version (	Rversion"
+CSServersCdnReq"D
+SCServersCdnAck
+cdn_url (	RcdnUrl
+version (	Rversion"
+CSClientDisconnectedReq"
+CSClientDisconnectedAck"c
+SCBroadcastNtf
+session_ids (R
+sessionIds
+global (Rglobal
+message (Rmessage"j
+CSReconnectReq
+uid (Ruid
+token (	Rtoken
+modules (Rmodules
+openid (	Ropenid""
+SCReconnectAck
+ret (Rret"
+SCReconnectCompleteNtf"
+	PSBgipReq
+json (	Rjson"
+	SPBgipAck
+json (	Rjson"D
+PSGmLoginReq
+account (	Raccount
+password (	Rpassword"<
+SPGmLoginAck
+error (Rerror
+result (	Rresult"2
+
+PSGmCmdReq
+cmd (	Rcmd
+args (	Rargs"`
+
+SPGmCmdAck
+error (Rerror
+result (	Rresult
+cmd (	Rcmd
+args (	Rargs"R
+PSBanRoleReq
+name (	Rname
+uuid (Ruuid
+platform (Rplatform"Ä
+SPBanRoleAck
+error (Rerror
+result (	Rresult
+name (	Rname
+uuid (Ruuid
+platform (Rplatform"T
+PSUnbanRoleReq
+name (	Rname
+uuid (Ruuid
+platform (Rplatform"Ç
+SPUnbanRoleAck
+error (Rerror
+result (	Rresult
+name (	Rname
+uuid (Ruuid
+platform (Rplatform"[
+PSCheckRoleReq
+account (	Raccount
+	role_name (	RroleName
+uuid (	Ruuid"o
+SPCheckRoleAck
+error (Rerror
+result (	Rresult
+	role_name (	RroleName
+uuid (Ruuid"í
+PSModifyRoleReq
+account (	Raccount
+	role_name (	RroleName
+uuid (Ruuid
+info_loc (	RinfoLoc
+info_val (	RinfoVal"¶
+SPModifyRoleAck
+error (Rerror
+result (	Rresult
+	role_name (	RroleName
+uuid (Ruuid
+info_loc (	RinfoLoc
+info_val (	RinfoVal"l
+SCRoleBaseDataNtf&
+data (2.dc.RoleDataChangeRdata/
+data64 (2.dc.RoleDataChangeInt64Rdata64")
+CSClientSelectRoleReq
+uid (Ruid"?
+SCClientSelectRoleAck
+error (Rerror
+uid (Ruid"˜
+CSClientPullRoleListReq
+platform (Rplatform
+open_id (	RopenId"
+loginChannel (RloginChannel
+
+regChannel (R
+regChannel#
+client_talken (	RclientTalken
+pf (	Rpf
+pfkey (	Rpfkey
+openkey (	Ropenkey"Q
+SCClientPullRoleListAck
+error (Rerror 
+list (2.dc.RoleListRlist"0
+CSClientGmCommandReq
+command (	Rcommand".
+SCClientGmCommandAck
+result (	Rresult"-
+CSClientGmHelpReq
+command (	Rcommand"j
+
+GmHelpDesc
+command (	Rcommand
+desc (	Rdesc
+category (Rcategory
+args (	Rargs"O
+SCClientGmHelpAck
+result (	Rresult"
+desc (2.dc.GmHelpDescRdesc"%
+SCClientSyncReq
+sync (Rsync"%
+CSClientSyncAck
+sync (Rsync"
+CSLogoutReq"#
+SCLogoutNtf
+error (Rerror"
+CSBattleReq"7
+SCBattleAck(
+report (2.dc.BattleReportRreport"
+CSPullItemReq"H
+SCPullItemAck%
+	item_list (2.dc.ItemRitemList
+ret (Rret"7
+CSOpenChestReq%
+	item_list (2.dc.ItemRitemList"I
+SCOpenChestAck
+ret (Rret%
+	item_list (2.dc.ItemRitemList"=
+CSSellItemReq
+itemId (RitemId
+count (Rcount"H
+SCSellItemAck
+ret (Rret%
+	item_list (2.dc.ItemRitemList"B
+CSSynthesisItemReq
+itemId (RitemId
+count (Rcount"M
+SCSynthesisItemAck
+ret (Rret%
+	item_list (2.dc.ItemRitemList"8
+SCItemChangeNtf%
+	item_list (2.dc.ItemRitemList"Ç
+CSStartIdleMissionReq
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId
+heroes (Rheroes"∏
+SCStartIdleMissionAck
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId
+ret (Rret
+
+start_time (R	startTime
+	full_time (RfullTime"l
+CSCollectIdleMissionReq
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId"Î
+SCCollectIdleMissionAck
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId"
+rewards (2.dc.ItemRrewards
+ret (Rret*
+last_collect_time (RlastCollectTime
+	full_time (RfullTime"k
+CSCancelIdleMissionReq
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId"°
+SCCancelIdleMissionAck
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId"
+rewards (2.dc.ItemRrewards
+ret (Rret"m
+CSAcceptBattleMissionReq
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId"£
+SCAcceptBattleMissionAck
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId
+ret (Rret"
+rewards (2.dc.ItemRrewards"l
+CSStartBattleMissionReq
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId"Ì
+SCStartBattleMissionAck
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId
+ret (Rret(
+report (2.dc.BattleReportRreport"
+rewards (2.dc.ItemRrewards
+stage_index (R
+stageIndex"5
+CSChangeTeamReq"
+team (2.dc.TeamConfigRteam"<
+SCChangeTeamAck
+team_id (RteamId
+ret (Rret"O
+CSChangeFunctionTeamReq
+	team_type (RteamType
+team_id (RteamId"a
+SCChangeFunctionTeamAck
+	team_type (RteamType
+team_id (RteamId
+ret (Rret":
+SCMissionDataNtf&
+data (2.dc.SyncMissinDataRdata"n
+SCUnblockedMissionDataNtf
+city_id (RcityId
+block_id (RblockId
+
+mission_id (R	missionId"
+CSDrawCardReq"V
+SCDrawCardAck
+ret (Rret
+heroes (Rheroes
+	free_time (RfreeTime">
+CSUnblockMissionReq'
+info (2.dc.CityMissionInfoRinfo"P
+SCUnblockMissionAck'
+info (2.dc.CityMissionInfoRinfo
+ret (Rret"8
+CSSpeedupIdleMissionReq
+
+mission_id (R	missionId"n
+SCSpeedupIdleMissionAck
+
+mission_id (R	missionId
+ret (Rret"
+rewards (2.dc.ItemRrewards"
+SCRoleLoadFinishNtf"
+CSAdventureInfoReq";
+SCAdventureInfoAck%
+info (2.dc.AdventureInfoRinfo"f
+CSAdventureCombatReq
+chapter (Rchapter
+stage (Rstage
+
+battleInfo (R
+battleInfo"–
+SCAdventureCombatAck
+result (Rresult(
+report (2.dc.BattleReportRreport%
+info (2.dc.AdventureInfoRinfo
+award (2	.dc.ItemsRaward.
+chapter_award (2	.dc.ItemsRchapterAward"c
+CSAdventureChapterAfkAwardReq
+chapter (Rchapter
+stage (Rstage
+type (Rtype"ã
+SCAdventureChapterAfkAwardAck
+result (Rresult
+award (2	.dc.ItemsRaward
+
+lapse_time (R	lapseTime
+type (Rtype"p
+CSAdventureAfkCombatReq
+chapter (Rchapter
+stage (Rstage%
+	hero_list (2.dc.HeroRheroList"£
+SCAdventureAfkCombatAck
+result (Rresult(
+report (2.dc.BattleReportRreport
+award (2	.dc.ItemsRaward%
+info (2.dc.AdventureInfoRinfo"H
+CSAdventureAfkAwardReq
+chapter (Rchapter
+stage (Rstage"Q
+SCAdventureAfkAwardAck
+result (Rresult
+award (2	.dc.ItemsRaward"+
+CSShopInfoReq
+shopType (RshopType"1
+SCShopInfoAck 
+info (2.dc.ShopInfoRinfo"P
+CSShopRefreshReq 
+refreshType (RrefreshType
+shopType (RshopType"ä
+SCShopRefreshAck
+result (Rresult 
+refreshType (RrefreshType
+shopType (RshopType 
+info (2.dc.ShopInfoRinfo"z
+CSShopBuyReq
+shopType (RshopType
+gridPos (RgridPos
+itemId (RitemId
+	itemCount (R	itemCount"¥
+SCShopBuyAck
+result (Rresult
+shopType (RshopType
+gridPos (RgridPos
+itemId (RitemId 
+info (2.dc.ShopInfoRinfo
+	itemCount (R	itemCount"
+CSStoryInfoReq"3
+SCStoryInfoAck!
+info (2.dc.StoryInfoRinfo"+
+CSStoryStartReq
+chapter (Rchapter"f
+SCStoryStartAck
+result (Rresult
+chapter (Rchapter!
+info (2.dc.StoryInfoRinfo";
+CSStoryEndReq
+chapter (Rchapter
+win (Rwin"£
+SCStoryEndAck
+result (Rresult
+chapter (Rchapter
+win (Rwin+
+rewards_list (2.dc.ItemRrewardsList!
+info (2.dc.StoryInfoRinfo"%
+CSElseWdInfoReq
+type (Rtype"K
+SCElseWdInfoAck
+error (Rerror"
+info (2.dc.ElseWdInfoRinfo"P
+CSElseWdStageInitReq
+teamPos (RteamPos
+
+pos2HeroId (R
+pos2HeroId"T
+SCElseWdStageInitAck
+error (Rerror&
+team (2.dc.ElseWdTeamSelfRteam"0
+CSElseWdRebornReq
+	ticket_id (RticketId"Q
+SCElseWdRebornAck
+error (Rerror&
+team (2.dc.ElseWdTeamSelfRteam"∫
+CSElseWdStageBattleResultReq
+door_pos (RdoorPos#
+battle_result (RbattleResult&
+team (2.dc.ElseWdTeamSelfRteam2
+
+enemy_team (2.dc.ElseWdTeamEnemyR	enemyTeam"ó
+SCElseWdStageBattleResultAck
+error (Rerror+
+rewards_list (2.dc.ItemRrewardsList4
+current_stage (2.dc.ElseWdStageRcurrentStage"H
+CSElseWdStageOptReq
+door_pos (RdoorPos
+option (Roption"Ì
+SCElseWdStageOptAck
+error (Rerror
+go_next (RgoNext+
+rewards_list (2.dc.ItemRrewardsList"
+info (2.dc.ElseWdInfoRinfo 
+eventCsvIds (ReventCsvIds4
+current_stage (2.dc.ElseWdStageRcurrentStage"I
+CSMailInfoReq
+type (Rtype$
+latest_op_time (RlatestOpTime"P
+Mail"
+tpl (2.dc.MailTemplateRtpl$
+inst (2.dc.MailInstanceRinst"
+SCMailInfoAck
+error (Rerror
+type (Rtype$
+latest_op_time (RlatestOpTime
+mails (2.dc.MailRmails"?
+CSMailOperateReq
+type (Rtype
+mail_id (RmailId"^
+SCMailOperateAck
+error (Rerror
+type (Rtype 
+mail_id_list (R
+mailIdList"1
+CSMailboxSetReq
+del_on_read (R	delOnRead"G
+SCMailboxSetAck
+error (Rerror
+del_on_read (R	delOnRead"%
+CSIntroQueryReq
+uuid (Ruuid"H
+SCIntroQueryAck
+error (Rerror
+intro (2	.dc.IntroRintro";
+CSIntroChangePortraitReq
+portrait_id (R
+portraitId"Q
+SCIntroChangePortraitAck
+error (Rerror
+intro (2	.dc.IntroRintro"D
+SCMarqueeNtf
+priority (Rpriority
+content (	Rcontent"{
+SCHeroListNtf&
+	hero_list (2	.dc.CHeroRheroList!
+team (2.dc.RoleTeamsRteam
+share_level (R
+shareLevel"6
+SCAddHeroNtf&
+	hero_list (2	.dc.CHeroRheroList"2
+SCDelHeroNtf"
+hero_uid_list (RheroUidList"8
+CSSynthesisHeroReq"
+hero_piece_id (RheroPieceId">
+SCSynthesisHeroAck
+ret (Rret
+allyId (RallyId"$
+CSHeroDisplayReq
+uid (Ruid"G
+SCHeroDisplayAck
+error (Rerror
+info (2	.dc.CHeroRinfo"d
+CSHeroLevelUpReq
+uid (Ruid
+	cur_level (RcurLevel!
+target_level (RtargetLevel"G
+SCHeroLevelUpAck
+error (Rerror
+info (2	.dc.CHeroRinfo"_
+CSHeroStarUpReq
+uid (Ruid
+cur_star (RcurStar
+target_star (R
+targetStar"F
+SCHeroStarUpAck
+error (Rerror
+info (2	.dc.CHeroRinfo"G
+CSHeroQualityUpReq
+uid (Ruid
+cur_quality (R
+curQuality"I
+SCHeroQualityUpAck
+error (Rerror
+info (2	.dc.CHeroRinfo"
+CSHeroDisassembleReq"A
+SCHeroDisassembleAck)
+heros_Piece (2.dc.ItemR
+herosPiece":
+CSPieceDismissReq%
+	item_list (2.dc.ItemRitemList"L
+SCPieceDismissAck
+ret (Rret%
+	item_list (2.dc.ItemRitemList"#
+CSHeroRebornReq
+uid (Ruid"J
+SCHeroRebornAck
+ret (Rret%
+	item_list (2.dc.ItemRitemList"Q
+CSConvertHeroPieceReq"
+hero_piece_id (RheroPieceId
+count (Rcount")
+SCConvertHeroPieceAck
+ret (Rret"?
+	CSDrawReq
+cfg_id (RcfgId
+	draw_type (RdrawType"}
+	SCDrawAck
+ret (Rret
+cfg_id (RcfgId
+	draw_type (RdrawType*
+items (2.dc.DrawCardShowListRitems"F
+CSBuyDrawItemReq
+cfg_id (RcfgId
+	draw_type (RdrawType"y
+SCBuyDrawItemAck
+ret (Rret
+cfg_id (RcfgId
+	draw_type (RdrawType
+items (2	.dc.ItemsRitems"ò
+SCGmDrawCardNtf
+ret (Rret
+draw_cnt (RdrawCnt&
+list (2.dc.GMDrawCardInfoRlist0
+qulity (2.dc.GMDrawCardQulityInfoRqulity"
+CSSynTaskListReq"Ç
+SCSynTaskListAck0
+daily_task_list (2.dc.TaskRdailyTaskList4
+weekly_tasks_list (2.dc.TaskRweeklyTasksList0
+main_tasks_list (2.dc.TaskRmainTasksList(
+daily_valid_time (RdailyValidTime*
+weekly_valid_time (RweeklyValidTime"*
+CSTaskRewardReq
+cfg_ids (RcfgIds"#
+SCTaskRewardAck
+ret (Rret"Z
+SCCommonItemPopUpNtf%
+	item_list (2.dc.ItemRitemList
+	func_type (RfuncType"8
+SCTaskChangeNtf%
+	task_list (2.dc.TaskRtaskList"1
+SCTaskDeleteNtf
+cfg_id_list (R	cfgIdList";
+SCEquipmentDataNtf%
+data (2.dc.EquipmentDataRdata"/
+
+CSEquipReq!
+list (2.dc.EquipInfoRlist"A
+
+SCEquipAck
+ret (Rret!
+list (2.dc.EquipInfoRlist"H
+CSEquipmentSlotEnchantingReq
+slot (Rslot
+count (Rcount"a
+SCEquipmentSlotEnchantingAck
+ret (Rret
+slot (Rslot
+	cur_count (RcurCount"F
+CSEquipmentSlotStrengthReq
+slot (Rslot
+count (Rcount"è
+SCEquipmentSlotStrengthAck
+ret (Rret
+slot (Rslot
+	cur_level (RcurLevel.
+strenghMasterLevel (RstrenghMasterLevel")
+CSEquipmentDestroyReq
+ids (Rids";
+SCEquipmentDestroyAck
+ret (Rret
+ids (Rids"A
+SCEquipmentSlotUnlockNtf%
+slot (2.dc.EquipmentSlotRslot"6
+SCAddEquipmentNtf!
+list (2.dc.EquipmentRlist"F
+SCCrystalDataNtf2
+crystal_data (2.dc.CrystalDataRcrystalData"Á
+SCCrystalDataChangeNtf
+is_altar (RisAltar
+share_level (R
+shareLevel/
+share_level_up_limit (RshareLevelUpLimit6
+hero_slot_list (2.dc.HeroSlotInfoRheroSlotList(
+priest_hero_list (RpriestHeroList"0
+CSBuyCrystalSlotReq
+buy_type (RbuyType"'
+SCBuyCrystalSlotAck
+ret (Rret"L
+CSPlaceHeroReq
+slot_number (R
+slotNumber
+hero_uid (RheroUid""
+SCPlaceHeroAck
+ret (Rret"1
+CSClearHeroReq
+slot_number (R
+slotNumber""
+SCClearHeroAck
+ret (Rret"3
+CSRefreshSlotReq
+slot_number (R
+slotNumber"$
+SCRefreshSlotAck
+ret (Rret"
+CSShareLevelUpReq"%
+SCShareLevelUpAck
+ret (Rret"9
+SCHeroChangeNtf&
+	hero_list (2	.dc.CHeroRheroList"T
+CSActivateEmblemReq
+hero_uid (RheroUid"
+emblem_cfg_id (RemblemCfgId"'
+SCActivateEmblemAck
+ret (Rret"2
+CSStrengthenEmblemReq
+hero_uid (RheroUid")
+SCStrengthenEmblemAck
+ret (Rret"O
+CSRefreshBlessReq
+hero_uid (RheroUid
+bless_slots (R
+blessSlots"%
+SCRefreshBlessAck
+ret (Rret"N
+CSResumeBlessReq
+hero_uid (RheroUid
+bless_slots (R
+blessSlots"$
+SCResumeBlessAck
+ret (Rret"O
+CSReplaceBlessReq
+hero_uid (RheroUid
+bless_slots (R
+blessSlots"%
+SCReplaceBlessAck
+ret (Rret"
+CSTowerListReq"3
+SCTowerListAck!
+list (2.dc.TowerListRlist"2
+SCAddTowerNtf!
+list (2.dc.TowerListRlist"5
+SCTowerChangeNtf!
+list (2.dc.TowerListRlist"4
+CSTowerFinishRewardsReq
+tower_id (RtowerId"?
+CSTowerBattleReq
+level_id (RlevelId
+win (Rwin"?
+SCTowerBattleAck
+ret (Rret
+level_id (RlevelId"
+CSAlbumInfoReq"F
+SCAlbumInfoAck
+ret (Rret"
+album_id_list (RalbumIdList"-
+CSAlbumRewardReq
+album_id (RalbumId"$
+SCAlbumRewardAck
+ret (Rret"
+CSCharacterProfileInfoReq"f
+SCCharacterProfileInfoAck
+ret (Rret7
+profile_list (2.dc.CharacterProfileRprofileList"c
+CSActivateCharacterProfileReq
+
+role_cfgid (R	roleCfgid#
+picture_index (RpictureIndex"1
+SCActivateCharacterProfileAck
+ret (Rret"<
+CSCharacterProfileRewardReq
+
+role_cfgid (R	roleCfgid"/
+SCCharacterProfileRewardAck
+ret (Rret".
+SCCustomerServiceReddotNtf
+num (Rnum"<
+SCMainUiNtf-
+main_ui_data (2.dc.CMainUiR
+mainUiData"
+CSMainUiRefreshReq"t
+SCMainUiRefreshAck 
+cur_drama_id (R
+curDramaId*
+random_drama_time (RrandomDramaTime
+ret (Rret"/
+CSMainUiReceiveReq
+drama_id (RdramaId"&
+SCMainUiReceiveAck
+ret (Rret"C
+SCMainUiSpecialDramaNtf(
+special_drama_id (RspecialDramaId"
+CSMainUiCollectReq"R
+SCMainUiCollectAck
+ret (Rret*
+last_collect_time (RlastCollectTime"
+CSFriendInfoReq"£
+SCFriendInfoAck"
+list (2.dc.FriendInfoRlist2
+
+black_list (2.dc.FriendBriefInfoR	blackList8
+request_list (2.dc.FriendRequestInfoRrequestList"?
+CSFriendRequestReq
+role_id (RroleId
+msg (	Rmsg"?
+SCFriendRequestAck
+ret (Rret
+role_id (RroleId"D
+SCFriendRequestOtherNtf)
+info (2.dc.FriendRequestInfoRinfo"J
+CSFriendRemoveRequestReq
+role_id (RroleId
+is_all (RisAll"\
+SCFriendRemoveRequestAck
+ret (Rret
+role_id (RroleId
+is_all (RisAll"2
+CSFriendAddBlackListReq
+role_id (RroleId"D
+SCFriendAddBlackListAck
+ret (Rret
+role_id (RroleId"5
+CSFriendRemoveBlackListReq
+role_id (RroleId"G
+SCFriendRemoveBlackListAck
+ret (Rret
+role_id (RroleId"0
+CSFriendRemoveReq
+	role_list (RroleList"B
+SCFriendRemoveAck
+ret (Rret
+	role_list (RroleList"1
+SCFriendRemoveOtherNtf
+role_id (RroleId"6
+CSFriendRequestAgreeReq
+	role_list (RroleList"X
+SCFriendRequestAgreeAck
+ret (Rret+
+	role_list (2.dc.FriendInfoRroleList"B
+SCFriendRequestAgreeOtherNtf"
+info (2.dc.FriendInfoRinfo"@
+CSFriendSearchReq
+role_id (RroleId
+name (	Rname"7
+SCFriendSearchAck"
+list (2.dc.FriendInfoRlist"J
+CSFriendModifyRemarkReq
+role_id (RroleId
+remark (	Rremark"\
+SCFriendModifyRemarkAck
+ret (Rret
+role_id (RroleId
+remark (	Rremark"=
+SCRoomChangeNtf*
+	room_list (2.dc.CRoomDataRroomList"
+CSRoomListReq"È
+SCRoomListAck*
+	room_list (2.dc.CRoomDataRroomList
+workers_num (R
+workersNum"
+hang_up_times (RhangUpTimes)
+last_hang_up_time (RlastHangUpTime*
+last_collect_time (RlastCollectTime
+ret (Rret"-
+CSRoomCollectReq
+room_uid (RroomUid"f
+SCRoomCollectAck
+ret (Rret
+room_uid (RroomUid%
+	item_list (2.dc.ItemRitemList"M
+CSCreateRoomReq
+room_cfg_id (R	roomCfgId
+x (Rx
+y (Ry"_
+SCCreateRoomAck
+ret (Rret
+room_cfg_id (R	roomCfgId
+x (Rx
+y (Ry"J
+CSRoomUpLevelReq
+room_uid (RroomUid
+	now_speed (RnowSpeed"\
+SCRoomUpLevelAck
+ret (Rret
+room_uid (RroomUid
+	now_speed (RnowSpeed"7
+CSUpdateRoomPosReq!
+pos (2.dc.RoomPosDataRpos"I
+SCUpdateRoomPosAck
+ret (Rret!
+pos (2.dc.RoomPosDataRpos")
+CSSpeedUpReq
+room_uid (RroomUid";
+SCSpeedUpAck
+ret (Rret
+room_uid (RroomUid"
+CSBuyWorkerReq"C
+SCBuyWorkerAck
+ret (Rret
+workers_num (R
+workersNum",
+CSRoomFinishReq
+room_uid (RroomUid">
+SCRoomFinishAck
+ret (Rret
+room_uid (RroomUid"J
+CSStationRoomReq
+room_uid (RroomUid
+	hero_list (RheroList"\
+SCStationRoomAck
+ret (Rret
+room_uid (RroomUid
+	hero_list (RheroList"B
+CSAssignPowerReq.
+assign_list (2.dc.RoomPowerR
+assignList"$
+SCAssignPowerAck
+ret (Rret";
+CSGetHangUpResourceReq!
+cur_diamonds (RcurDiamonds"y
+SCGetHangUpResourceAck
+ret (Rret"
+hang_up_times (RhangUpTimes)
+last_hang_up_time (RlastHangUpTime"8
+CSUpdatePowerInfoReq 
+playerPower (RplayerPower"(
+SCUpdatePowerInfoAck
+ret (Rret"6
+CSSettingSaveReq
+pos (Rpos
+val (Rval"H
+SCSettingSaveAck
+ret (Rret
+pos (Rpos
+val (Rval"à
+SCHealthUpdateTimeNtf
+max_time (RmaxTime
+accumu_time (R
+accumuTime
+try_time (RtryTime
+	operation (R	operation
+	time_node (RtimeNode/
+force_exit_rest_time (RforceExitRestTime6
+force_exit_rest_end_time (RforceExitRestEndTime 
+ban_end_time (R
+banEndTime*
+curfew_begin_time	 (RcurfewBeginTime&
+curfew_end_time
+ (RcurfewEndTime"º
+CSOssBattleStartReq
+battle_type (R
+battleType
+	battle_id (RbattleId"
+sub_battle_id (RsubBattleId
+	chip_info (	RchipInfo&
+fight_hero_info (	RfightHeroInfo"'
+SCOssBattleStartAck
+ret (Rret"À
+CSOssBattleEndReq
+battle_type (R
+battleType
+	battle_id (RbattleId"
+sub_battle_id (RsubBattleId
+duration (Rduration
+result (Rresult
+
+completion (	R
+completion&
+fight_hero_info (	RfightHeroInfo*
+fight_battle_info (	RfightBattleInfo,
+fight_rewards_info	 (	RfightRewardsInfo"%
+SCOssBattleEndAck
+ret (Rret*R
+ClientLoginResult
+LOGIN_RESULT_CREATE_ROLE
+LOGIN_RESULT_PULL_ROLE_LIST*B
+BanType
+BanType_Normal 
+BanType_Login
+BanType_Chat*ƒ
+RoleDataType
+RoleDataType_Coin
+RoleDataType_Diamond
+RoleDataType_Wood
+RoleDataType_Level
+RoleDataType_Exp
+RoleDataType_HeroExp
+RoleDataType_NickName
+RoleDataType_PlayerPower
+RoleDataType_Energy	
+RoleDataType_Tech
+
+RoleDataType_DailyActive
+RoleDataType_WeeklyActive*›
+Attr
+Attr_HP
+Attr_HPBase
+Attr_HPRate
+	Attr_ExHP
+
+Attr_HPMax
+Attr_AtkBase
+Attr_AtkRate
+
+Attr_ExAtk
+Attr_Atk	
+Attr_DefBase
+
+Attr_DefRate
+
+Attr_ExDef
+Attr_Def
+	Attr_Mana
+Attr_ManaInit
+Attr_ManaMax
+Attr_ManaGainRate
+Attr_Spd
+Attr_SkillCdValue
+Attr_SkillCdPercent
+Attr_CritRate
+Attr_CritDamage
+Attr_AntiCritRate
+Attr_HitRate
+Attr_DodgeRate
+Attr_BlockRate
+Attr_BlockDeepen
+Attr_AntiBlockRate
+Attr_BreakDefRate
+Attr_BreakDefDeepen
+Attr_AntiBreakDefRate
+Attr_LifeStealRate 
+Attr_BounceRate!
+Attr_CureRate"
+Attr_HurtRate#
+Attr_AntiHurtRate$
+Attr_DamRate%
+Attr_ControlRate&
+Attr_AntiControlRate'
+Attr_BeDamageRate(
+Attr_PhysicalAmplyRate)
+Attr_PhysicalReduceRate*
+Attr_MagicAmplyRate+
+Attr_MagicReduceRate,
+Attr_CritResistRate-
+Attr_BuffTime.
+Attr_DeBuffTime/
+Attr_ControlBuffTime0*F
+	AttrGroup
+AttrGroup_Base 
+AttrGroup_Rate
+AttrGroup_Ext*B
+CampType
+CampType_Enemy 
+CampType_Our
+CampType_All*Ï
+
+TargetType
+TargetType_T1
+TargetType_T2
+TargetType_T1UT2
+TargetType_T1NT2
+TargetType_T1UT2_Sub_T1NT2
+TargetType_Attacker
+TargetType_Target
+TargetType_TriggerSkillT1
+TargetType_TriggerSkillT2	*Ù
+TargetRange
+TargetRange_Pursuit 
+TargetRange_Single_Row
+TargetRange_Single_Col
+TargetRange_HP
+TargetRange_Buf
+TargetRange_Selfd
+TargetRange_Alle
+TargetRange_Colf
+TargetRange_Rowg
+TargetRange_Randomh*f
+	SkillType
+SkillType_Nomal 
+SkillType_Pursuit
+SkillType_Ultimate
+SkillType_Passive*Ÿ
+FunctionType
+FunctionType_Dmg
+FunctionType_Heal
+FunctionType_HitState
+FunctionType_Dispel
+FunctionType_TriggerEffect
+FunctionType_TriggerSkill"
+FunctionType_ChangeEffectRound$
+ FunctionType_AttackTriggerEffect
+FunctionType_ScatteredHPDmg	
+FunctionType_HPDmg
+
+FunctionType_AddCampDmg
+FunctionType_AddAttr!
+FunctionType_KeepInvisibility
+FunctionType_ControlStatee
+FunctionType_ChangeAttrf
+FunctionType_BuffDmgg
+FunctionType_BuffHealh
+FunctionType_Shieldi
+FunctionType_ImmuneDmgj
+FunctionType_ImmuneDizzyk
+FunctionType_ImmuneSilentl!
+FunctionType_ImmuneImmobilizem
+FunctionType_ImmuneSleepn
+FunctionType_ImmuneEffecto
+FunctionType_Invisibilityp
+FunctionType_Chainq
+FunctionType_ReviveÃ
+FunctionType_UndeadÕ
+FunctionType_UnreviveŒ
+FunctionType_BeatBackœ
+FunctionType_Invisible–'
+"FunctionType_CreatureNumChangeAttr— 
+FunctionType_ReleaseSkillHP“*C
+HitState
+HitState_Fly
+HitState_Repel
+HitState_Fall*\
+ControlState
+ControlState_Dizzy
+ControlState_Silent
+ControlState_Immobilize*Ñ
+BuffType
+BuffType_Normal 
+BuffType_Dot
+BuffType_Hot
+BuffType_Ctrl
+BuffType_Attr_Add
+BuffType_Attr_Sub*L
+TurnReduceType
+TurnReduceType_RoundEnd 
+TurnReduceType_RoundBegin*è
+BattleRecordType
+BattleRecordType_None 
+BattleRecordType_CastSkill
+BattleRecordType_RemoveBuff
+BattleRecordType_BuffEffect*≥
+SkillEffectType
+SkillEffectType_Dmg
+SkillEffectType_BeHitState
+SkillEffectType_AddBuff
+SkillEffectType_RemoveBuff
+SkillEffectType_BuffDmg
+SkillEffectType_Miss 
+SkillEffectType_EnergyChange
+SkillEffectType_Death
+SkillEffectType_Heal	
+SkillEffectType_BuffHeal
+*1
+BattleDataType
+BattleDataType_EnergyChange*Ÿ
+	GoodsType
+GoodsType_Item
+GoodsType_Resource
+GoodsType_Allies
+GoodsType_Equipment
+GoodsType_Gem
+GoodsType_Artifact
+GoodsType_Tactics
+GoodsType_Accessories
+GoodsType_Reward*‰
+ResourceType
+ResourceType_Coin±	
+ResourceType_Diamond≤	
+ResourceType_HeroExp≥	
+ResourceType_Exp¥	
+ResourceType_Energyµ	
+ResourceType_Tech∂	
+ResourceType_DailyActive∑	
+ResourceType_WeeklyActive∏	*d
+ItemType
+ItemType_Consume
+ItemType_Material
+ItemType_Fragment
+ItemType_Ativity*4
+ShopType
+ShopType_Adventure
+ShopType_Pvp**
+ConsumeSubType
+ConsumeSubType_Chest*ä
+MaterialSubType&
+"MaterialSubType_ReinforcementStone%
+!MaterialSubType_EvolutionaryStone
+MaterialSubType_SuitGeneral
+MaterialSubType_SuitSpecial)
+%MaterialSubType_AccessoriesLuckyStone'
+#MaterialSubType_AccessoriesResearch$
+ MaterialSubType_TacticalResearch#
+MaterialSubType_ArtifactUpgrade#
+MaterialSubType_FamilyAffection	"
+MaterialSubType_WikiActivation
+*W
+FragmentSubType 
+FragmentSubType_ItemFragment "
+FragmentSubType_AlliesFragment*°
+AtivitySubType#
+AtivitySubType_CoinDrawCardItem&
+"AtivitySubType_DiamondDrawCardItem$
+ AtivitySubType_VipExperienceCard
+AtivitySubType_MonthCard*≥
+ItemQualityType
+ItemQualityType_White
+ItemQualityType_Green
+ItemQualityType_Blue
+ItemQualityType_Purple
+ItemQualityType_Orange
+ItemQualityType_Gold*N
+ChestContentType
+ChestContentType_Item
+ChestContentType_ChestOrder*;
+MissionType
+MissionType_Battle 
+MissionType_Idle*6
+	ActorType
+ActorType_Hero
+ActorType_Monster*b
+TeamType
+TeamType_Attack 
+TeamType_ArenaDefend
+TeamType_Tower
+TeamType_ElseWd*§
+	LimitType
+LimitType_1
+LimitType_2
+LimitType_3
+LimitType_4
+LimitType_5
+LimitType_6
+LimitType_7
+LimitType_8
+LimitType_9	*i
+Faction
+Faction_Master
+Faction_Tech
+Faction_Magic
+Faction_Power
+Faction_Cosmic*L
+	AllyClass
+AllyClass_Tank
+AllyClass_Output
+AllyClass_Support*@
+
+SystemType
+SystemType_DrawCard
+SystemType_Collection*f
+RoomStatusType
+RoomStatusType_Runing
+RoomStatusType_Building
+RoomStatusType_Upgrading*f
+BattleParam
+BattleParam_AtkBaseRatio
+BattleParam_DefBaseRatio
+BattleParam_HpBaseRatio*j
+
+AttackType
+AttackType_Crit 
+AttackType_Penetration
+AttackType_Block
+AttackType_Normal*Ñ
+ImmuneState
+ImmuneState_Dmg 
+ImmuneState_Dizzy
+ImmuneState_Silent
+ImmuneState_Immobilize
+ImmuneState_Sleep*g
+BuffDispelGroup
+BuffDispelGroup_Debuf
+BuffDispelGroup_Buf 
+BuffDispelGroup_Undispelable*{
+BuffDispelRange
+BuffDispelRange_Type 
+BuffDispelRange_SubType
+BuffDispelRange_Id
+BuffDispelRange_Group*Ø
+BuffSubType
+BuffSubType_None 
+BuffSubType_Dot
+BuffSubType_Hot
+BuffSubType_Dizzy
+BuffSubType_Silent
+BuffSubType_Immobilize
+BuffSubType_Sleep*'
+	BuffState
+BuffState_Invisibility*.
+DrawType
+DrawType_One
+DrawType_Ten*Æ
+ConditionCheckType
+Type_AdventureCountCheck
+Type_HallLevelCheck
+Type_AFKRewardCount
+Type_AFKResourceCount
+Type_RoomResourceCount
+Type_LoginDaysCount 
+Type_DailyMissionActiveCheck!
+Type_WeeklyMissionActiveCheck
+Type_AnyEquipDevelopCount	
+Type_EquipLevelCheck
+
+Type_QuickAFKCount
+Type_BattleCount!
+Type_PlayerPropConditionCheck!
+Type_AnyHeroDevelopLevelCount 
+Type_AnyHeroDevelopStarCount#
+Type_AnyHeroDevelopQualityCount
+Type_HeroVanishQualityCount!
+Type_TheHeroQualityCountCheck
+Type_TheHeroLevelCountCheck
+Type_TheHeroStarCountCheck
+Type_HasHeroQualityCheck
+Type_HasHeroStarCheck
+Type_HasHeroLevelCheck
+Type_HasHeroNumberCheck"
+Type_PlayerLevelConditionCheck
+Type_AdventureChapterCheck
+Type_HasOneHeroLevelCheck
+Type_DrawCardCount
+Type_TotalDiamondCount
+Type_TowerLevelCount
+Type_RoomLevelCheck*Ó
+ItemPopType
+ItemPopType_Defualt 
+ItemPopType_TaskSystem1
+ItemPopType_HeroSystem1
+ItemPopType_ItemSystem1
+ItemPopType_TowerBattle 
+ItemPopType_CharacterProfile
+ItemPopType_Hall
+ItemPopType_HallHangUp*u
+TaskType
+TaskType_Main
+TaskType_Daily
+TaskType_Weekly
+TaskType_DailyBox
+TaskType_WeeklyBox*Ì
+ParameTableType
+InitialCard
+InitialItem
+InitialResources
+GoldPerMinPerLv
+LvUpGoldRoomCostPerLV
+GoldStackTime
+InitialRoom
+InitialCity
+InitialBlock	
+InitialMission
+
+IdleMissionTime
+PackageMaxHero
+AfkReward1Time
+AfkReward2Time
+AfkRewardTimeMax
+RoomWorkerNum
+EmploymentCost1
+EmploymentCost2
+
+TimeRelief
+MaterialRelief
+HeroReborn_cost
+UnmovableFloor
+randomBUFFlastTime
+Equip_UnlockLevel
+Equip_BaseEquip
+MaxTurn
+DmgReduceRate
+
+MyCamp
+	EnemyCamp
+AtkBaseRatio
+DefBaseRatio
+HpBaseRatio 
+Gongming_LevelNeedStar!
+Gongming_LevelUp"
+Gongming_LevelMax#
+Gongming_ListNumOnce$
+Gongming_ListNumBase%
+Gongming_ListNumLock&
+Gongming_ListLockNeedItem'
+Gongming_ListLockNeed(
+Gongming_ListCD)
+ElseWorld_refreshcycle+
+ElseWorld_refreshitem,
+ElseWorld_rebirthitem-
+ElseWorld_refreshtime.
+ElseWorld_hprecovery/
+ElseWorld_mprecovery0
+Func_refreshtime1'
+#Characterprofile_IllustrationReward2
+DramaFreshTime3
+DramaFreshMax4
+
+MailNumMax5
+MailTimeMax6
+MailItemMax7
+Lobby_RoomWorkerNum8
+Lobby_EmploymentCost19
+Lobby_HangUpTime:
+Lobby_HangUpCost;
+Lobby_UnMoveArea<
+Lobby_BaseRoom=
+Lobby_GetItemMinCD>
+Lobby_PowerOpen? 
+Lobby_NoPassAnyStageProuduce@
+FriendNumMaxA
+BlackListNumMaxB
+FriendRequestNumMaxC
+FriendRemarkLengthMaxD
+
+FirstGachaE
+SecondGachaF*d
+DrawCardItemType
+DrawCardItemType_Item
+DrawCardItemType_Hero
+DrawCardItemType_Piece*„
+DrawCardOutputType(
+$DrawCardOutputType_SpecialGuaranteed#
+DrawCardOutputType_SpecialOther&
+"DrawCardOutputType_TimesGuaranteed
+DrawCardOutputType_Random
+DrawCardOutputType_Must
+DrawCardOutputType_Fix*¨
+
+ModuleName
+ModuleName_Base
+ModuleName_Hero
+ModuleName_Room
+ModuleName_Adventure
+ModuleName_Task
+ModuleName_Story
+ModuleName_Mail
+ModuleName_Equip
+ModuleName_Crystal	
+ModuleName_MainUI
+
+ModuleName_Shop
+ModuleName_ElseWd
+ModuleName_Tower
